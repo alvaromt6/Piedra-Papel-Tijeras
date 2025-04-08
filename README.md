@@ -4,6 +4,7 @@ Juego clásico interactivo desarrollado con tecnologías web front-end.
 ![Captura del juego Piedra, Papel o Tijeras](img/preview.webp)
 
 🚀 Tecnologías
+
 HTML5 (estructura semántica)
 
 CSS3 (diseño responsive + animaciones)
@@ -20,8 +21,6 @@ Efectos visuales al jugar.
 📦 Instalación
 Clona el repositorio:
 
-bash
-Copy
 git clone https://github.com/alvaromt6/Piedra-Papel-Tijeras.git  
 
 Abre el archivo index.html en tu navegador.
