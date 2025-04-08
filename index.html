@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Piedra Papel Tijera</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>Piedra Papel Tijera</h1>
+
+    <p>
+        <label>Introduce el nombre del jugador: </label>
+        <input type="text" name="nombre">
+    </p>
+    <p>        
+        <label>Introduce número de partidas: </label>
+        <input type="number" name="partidas" value="0">
+    </p>
+    <button>¡Jugar!</button>
+
+    <h3>
+        Jugando la partida 
+        <span id="actual"> 0 </span> de 
+        <span id="total"> 0 </span>.
+    </h3>
+
+    <div id="jugador">
+        <img class="seleccionado" src="img/piedraJugador.png">
+        <img class="noSeleccionado" src="img/papelJugador.png">
+        <img class="noSeleccionado" src="img/tijeraJugador.png">
+    </div>
+
+    <h2> Piedra, papel o tijera...
+        <button>¡YA!</button>
+    </h2>
+
+    <div id="maquina">
+        <img src="img/defecto.png">
+    </div>
+
+    <div>
+        <h3>
+            Historial de partidas
+        </h3>
+        <ul id="historial">
+        </ul>
+        <button>RESET</button>
+    </div>
+</body>
+
+<footer>
+    <span>&copy; 2023 Piedra Papel Tijera. Álvaro Macías Tirado</span>
+</footer>
+
+</html>

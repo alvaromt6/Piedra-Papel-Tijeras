@@ -1,0 +1,93 @@
+
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    color: #444;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    
+}
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; /* Espaciado entre los elementos */
+    padding: 0;
+    list-style: none;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.fondoRojo {
+    background-color: #ffcccc;
+}
+
+.seleccionado {
+    border: 5px solid #007BFF;
+    opacity: 1;
+}
+
+.noSeleccionado {
+    opacity: 0.5;
+}
+
+#jugador, #maquina {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+#historial {
+    list-style: none;
+    padding: 0;
+}
+
+#historial li {
+    background-color: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
